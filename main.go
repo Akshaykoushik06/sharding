@@ -13,8 +13,8 @@ import (
 var DBs []*sql.DB
 
 func init() {
-	username := "akshaykoushik"
-	password := "@ABDevilliers17"
+	username := ""
+	password := ""
 	host := "akshaysqlserver.mysql.database.azure.com"
 	port := 3306
 	database := "testdb"
